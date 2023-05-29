@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import "./index.css";
 
 const Navbar = () => {
   return (
     <nav className=" navbar-position navbar navbar-expand-lg navbar-light bg-light position-sticky">
-      <a className=" logo navbar-brand font-weight-bold " href="/">
+      <Link to="/" className=" logo navbar-brand font-weight-bold ">
         <img
           src="https://cdn-icons-png.flaticon.com/512/1779/1779940.png"
           width="30"
@@ -12,7 +13,7 @@ const Navbar = () => {
           alt="wheather logo"
         />
         Weather App
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -30,14 +31,14 @@ const Navbar = () => {
       >
         <ul className="navbar-nav ">
           <li className="nav-item active">
-            <a className="nav-link font-weight-bold" href="/">
+            <Link to="/" className="nav-link font-weight-bold" href="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link font-weight-bold" href="/location">
+            <Link to="/location" className="nav-link font-weight-bold" hre>
               Location
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

@@ -29,6 +29,12 @@
   display: flex;
 }
 
+@media screen and (max-width: 860px) {
+  .inner-Home-contianer {
+    width: 90%;
+  }
+}
+
 .home-content-container {
   width: 50%;
   display: flex;
@@ -61,7 +67,7 @@
 .home-image-container {
   width: 50%;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .home-image {
@@ -71,6 +77,9 @@
 }
 
 @media screen and (max-width: 860px) {
+  .home-image {
+    height: 200px;
+  }
   .inner-Home-contianer {
     flex-direction: column;
   }
