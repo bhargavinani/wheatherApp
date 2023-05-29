@@ -67,7 +67,8 @@
 .home-image-container {
   width: 50%;
   height: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
+  flex-grow: 1;
 }
 
 .home-image {
@@ -77,9 +78,9 @@
 }
 
 @media screen and (max-width: 860px) {
-  .home-image {
-    height: 200px;
-  }
+  /* .home-image {
+    min-height: 200px;
+  } */
   .inner-Home-contianer {
     flex-direction: column;
   }
