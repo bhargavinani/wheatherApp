@@ -1,0 +1,124 @@
+.outer-container {
+  background-image: url("https://rare-gallery.com/thumbs/121292-sunset-mountains-firewatch-minimal-silhouette-hd-4k.png");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+@media screen and (max-width: 780px) {
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-element {
+  border-radius: 15px;
+  padding: 5px;
+  border: 1px solid rgb(191, 185, 185);
+  background-color: transparent;
+  color: white;
+  outline: none;
+  width: 250px;
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.search {
+  cursor: pointer;
+  color: white;
+}
+
+.condition {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.details-container {
+  border: 0.5px solid rgb(232, 207, 207);
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.content-container {
+  border-width: 0px;
+  border-radius: 10px;
+  backdrop-filter: blur(35px);
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 25%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .content-container {
+    width: 40%;
+  }
+}
+
+.content-heading {
+  color: white;
+  font-size: 35px;
+}
+
+.content-para {
+  color: white;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 700px) {
+  .content-heading {
+    font-size: 25px;
+  }
+
+  .content-para {
+    font-size: 13px;
+  }
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.failure-text {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}

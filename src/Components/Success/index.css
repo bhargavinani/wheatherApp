@@ -1,0 +1,67 @@
+.temperature {
+  color: white;
+  font-size: 35px;
+}
+
+.place_name {
+  color: rgb(51, 41, 41);
+}
+
+.wheather-icon {
+  width: 70px;
+}
+
+.condition {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.details-container {
+  border: 0.5px solid rgb(232, 207, 207);
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.content-container {
+  border-width: 0px;
+  border-radius: 10px;
+  backdrop-filter: blur(35px);
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 25%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .content-container {
+    width: 40%;
+  }
+}
+
+.content-heading {
+  color: white;
+  font-size: 35px;
+}
+
+.content-para {
+  color: white;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 700px) {
+  .content-heading {
+    font-size: 25px;
+  }
+
+  .content-para {
+    font-size: 13px;
+  }
+}
